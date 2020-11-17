@@ -1,12 +1,12 @@
 {
     "name": "abdazz/gov-pay-client",
     "description": "GovPay Client",
-    "license": "license",
+    "license": "MIT",
     "authors": [
         {
             "name": "Abdoul-Aziz ZOROM",
             "email": "abdoulazizzorom@gmail.com",
-            "homepage": "author homepage"
+            "homepage": "https://github.com/abdazz"
         }
     ],
     "homepage": "https://github.com/abdazz/gov-pay-client",
