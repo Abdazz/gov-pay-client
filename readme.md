@@ -28,11 +28,11 @@ Ouvrez le fichier payement.php et renseignez les différents paramètres de conf
 
 Si vous rencontrez des difficultés avec les paramètres, veuillez contacter l'adminitrateur de Gov-Pay pour plus de renseignements.
 
-
-## Contributing
-
-Please see [contributing.md](contributing.md) for details and a todolist.
-
+Etape 3
+Soumettre une demande de payement
+``` bash
+$ http://localhost:8000/demande
+```
 ## Securité
 
 Si vous rencontrez un problème fonctionnel ou sécuritaire avec ce package, veuillez contactez l'administrateur de Gov-Pay ou envoyez un e-mail à abdoulazizzorom@gmail.com
