@@ -5,40 +5,37 @@
 [![Build Status][ico-travis]][link-travis]
 [![StyleCI][ico-styleci]][link-styleci]
 
-This is where your description should go. Take a look at [contributing.md](contributing.md) to see a to do list.
+Ce package permet d'ingréer la palteforme de payement mobile de l'administration publique (Gov-Pay) du Burkina dans un e-service donné.
 
 ## Installation
 
-Via Composer
+A travers Composer
 
 ``` bash
-$ composer require abdazz/govpayclient
+$ composer require abdazz/gov-pay-client
 ```
 
-## Usage
+## Configuration
 
-## Change log
-
-Please see the [changelog](changelog.md) for more information on what has changed recently.
-
-## Testing
-
+Etape 1
 ``` bash
-$ composer test
+$ php artisan vendor:publish --provider="Abdazz\GovPayClient\GovPayClientServiceProvider"
 ```
+Etape 2
+
+La commande ci-dessus a publié le fichier payement config dans votre dossier config.
+Ouvrez le fichier payement.php et renseignez les différents paramètres de configuration.
+
+Si vous rencontrez des difficultés avec les paramètres, veuillez contacter l'adminitrateur de Gov-Pay pour plus de renseignements.
+
 
 ## Contributing
 
 Please see [contributing.md](contributing.md) for details and a todolist.
 
-## Security
+## Securité
 
-If you discover any security related issues, please email abdoulazizzorom@gmail.com instead of using the issue tracker.
-
-## Credits
-
-- [Abdoul-Aziz ZOROM][link-author]
-- [All Contributors][link-contributors]
+Si vous rencontrez un problème fonctionnel ou sécuritaire avec ce package, veuillez contactez l'administrateur de Gov-Pay ou envoyez un e-mail à abdoulazizzorom@gmail.com
 
 ## License
 
