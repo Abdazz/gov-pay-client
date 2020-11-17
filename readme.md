@@ -25,8 +25,10 @@ Si vous rencontrez des difficultés avec les paramètres, veuillez contacter l'a
 ### Etape 3
 Soumettre une demande de payement
 ``` bash
-$ http://localhost:8000/demande
+ http://localhost:8000/demande
 ```
+
+
 ## Securité
 
 Si vous rencontrez un problème fonctionnel ou sécuritaire avec ce package, veuillez contactez l'administrateur de Gov-Pay ou envoyez un e-mail à abdoulazizzorom@gmail.com

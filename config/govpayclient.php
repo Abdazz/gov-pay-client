@@ -1,7 +1,7 @@
 <?php
 
 return [
-    "reference" => "5c2a6d07-56bc-4c08-a204-64dead2ab5fb",
+    "reference" => "",
     "server_endpoint" => "http://localhost:8000/payement/",
     "server_check_endpoint" =>'http://localhost:8000/api/transactions/check',
 
