@@ -1,4 +1,4 @@
-# GovPayClient
+# Gov-Pay Client
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Total Downloads][ico-downloads]][link-downloads]
@@ -17,18 +17,17 @@ $ composer require abdazz/gov-pay-client
 
 ## Configuration
 
-Etape 1
+### Etape 1
 ``` bash
 $ php artisan vendor:publish --provider="Abdazz\GovPayClient\GovPayClientServiceProvider"
 ```
-Etape 2
 
+### Etape 2
 La commande ci-dessus a publié le fichier payement config dans votre dossier config.
 Ouvrez le fichier payement.php et renseignez les différents paramètres de configuration.
-
 Si vous rencontrez des difficultés avec les paramètres, veuillez contacter l'adminitrateur de Gov-Pay pour plus de renseignements.
 
-Etape 3
+### Etape 3
 Soumettre une demande de payement
 ``` bash
 $ http://localhost:8000/demande
@@ -37,9 +36,6 @@ $ http://localhost:8000/demande
 
 Si vous rencontrez un problème fonctionnel ou sécuritaire avec ce package, veuillez contactez l'administrateur de Gov-Pay ou envoyez un e-mail à abdoulazizzorom@gmail.com
 
-## License
-
-license. Please see the [license file](license.md) for more information.
 
 [ico-version]: https://img.shields.io/packagist/v/abdazz/govpayclient.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/abdazz/govpayclient.svg?style=flat-square
